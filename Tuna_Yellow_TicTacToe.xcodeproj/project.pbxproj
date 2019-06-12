@@ -14,6 +14,10 @@
 		F99171F4229F12DA007D20CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99171F2229F12DA007D20CD /* LaunchScreen.storyboard */; };
 		F99171FF229F12DA007D20CD /* Tuna_Yellow_TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99171FE229F12DA007D20CD /* Tuna_Yellow_TicTacToeTests.swift */; };
 		F991720A229F12DA007D20CD /* Tuna_Yellow_TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9917209229F12DA007D20CD /* Tuna_Yellow_TicTacToeUITests.swift */; };
+		F9917218229F265C007D20CD /* Tuna_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9917217229F265C007D20CD /* Tuna_TableViewController.swift */; };
+		F991721A229F2801007D20CD /* Tuna_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9917219229F2801007D20CD /* Tuna_TableViewCell.swift */; };
+		F9D1EFBD22B18CB70070E27B /* Tuna_GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D1EFBC22B18CB70070E27B /* Tuna_GameViewController.swift */; };
+		F9D1EFBF22B190FA0070E27B /* Tuna_GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D1EFBE22B190FA0070E27B /* Tuna_GameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		F9917205229F12DA007D20CD /* Tuna_Yellow_TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tuna_Yellow_TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9917209229F12DA007D20CD /* Tuna_Yellow_TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuna_Yellow_TicTacToeUITests.swift; sourceTree = "<group>"; };
 		F991720B229F12DA007D20CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9917217229F265C007D20CD /* Tuna_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuna_TableViewController.swift; sourceTree = "<group>"; };
+		F9917219229F2801007D20CD /* Tuna_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuna_TableViewCell.swift; sourceTree = "<group>"; };
+		F9D1EFBC22B18CB70070E27B /* Tuna_GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuna_GameViewController.swift; sourceTree = "<group>"; };
+		F9D1EFBE22B190FA0070E27B /* Tuna_GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuna_GameModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				F99171F0229F12DA007D20CD /* Assets.xcassets */,
 				F99171F2229F12DA007D20CD /* LaunchScreen.storyboard */,
 				F99171F5229F12DA007D20CD /* Info.plist */,
+				F9917217229F265C007D20CD /* Tuna_TableViewController.swift */,
+				F9917219229F2801007D20CD /* Tuna_TableViewCell.swift */,
+				F9D1EFBC22B18CB70070E27B /* Tuna_GameViewController.swift */,
+				F9D1EFBE22B190FA0070E27B /* Tuna_GameModel.swift */,
 			);
 			path = Tuna_Yellow_TicTacToe;
 			sourceTree = "<group>";
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9917218229F265C007D20CD /* Tuna_TableViewController.swift in Sources */,
+				F991721A229F2801007D20CD /* Tuna_TableViewCell.swift in Sources */,
 				F99171EC229F12D9007D20CD /* ViewController.swift in Sources */,
 				F99171EA229F12D9007D20CD /* AppDelegate.swift in Sources */,
+				F9D1EFBD22B18CB70070E27B /* Tuna_GameViewController.swift in Sources */,
+				F9D1EFBF22B190FA0070E27B /* Tuna_GameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
