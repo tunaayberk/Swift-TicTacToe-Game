@@ -38,7 +38,7 @@ class Tuna_GameViewController: UIViewController {
                 acceptNewTouches = false
             } else {
                 gameStatusLabel.text = gameModel.whoseTurnIsIt + "'s Turn";
-                acceptNewTouches = true;
+                
             }
             
         } else {

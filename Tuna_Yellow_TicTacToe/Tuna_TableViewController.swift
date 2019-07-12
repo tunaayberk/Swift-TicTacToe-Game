@@ -49,11 +49,16 @@ class Tuna_TableViewController: UITableViewController {
 
         let whoWon = UserDefaults.standard.string(forKey: "Result_" + String(thisCellGameIndex));
         
-        let whenWon = UserDefaults.standard.double(forKey: "TimeStamp_" + String(thisCellGameIndex));
+        let whenWon = UserDefaults.standard.object(forKey: "TimeStamp_" + String(thisCellGameIndex)) as! Date
         
         
         cell.who_won.text = whoWon
-        cell.date_played.text = String(whenWon);
+
+        let dateFormatter = DateFormatter();
+        dateFormatter.dateStyle = .medium;
+        dateFormatter.timeStyle = .short;
+
+        cell.date_played.text = dateFormatter.string(from: whenWon)
         
         if(whoWon == "X Won!"){
             cell.win_loss_image.image = UIImage(named: "Yellow_Win")

@@ -83,9 +83,9 @@ class Tuna_GameModel {
         
         UserDefaults.standard.set(gameResult, forKey: "Result_" + String(numberOfGamesPlayed));
         
-        let currentTime = Date().timeIntervalSince1970;
+        let currentTime = Date();
         
-        UserDefaults.standard.set(currentTime, forKey: "TimeStamp_" + String(currentTime));
+        UserDefaults.standard.set(currentTime, forKey: "TimeStamp_" + String(numberOfGamesPlayed));
         
     }
 }
